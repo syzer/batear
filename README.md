@@ -12,10 +12,6 @@ It reads audio from an ICS-43434 I2S MEMS microphone, uses multi-frequency **Goe
 
 > **Note:** Acoustic drone detection in real environments depends on distance, wind, background noise, and drone type. This project is a **flashable baseline** — thresholds must be calibrated per environment. Higher accuracy can be achieved with ESP-NN / TensorFlow Lite Micro models.
 
-## License
-
-MIT — see [LICENSE](LICENSE)
-
 ## Hardware Wiring (ICS-43434)
 
 | ICS-43434 | T-Display-S3 |
@@ -76,3 +72,7 @@ batear/
     ├── CMakeLists.txt
     └── main.c
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE)
