@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     
     # Use Espressif's official Docker image
-    container: espressif/idf:release-v5.2
+    # v5.2 lacks esp_driver_i2s (new I2S API); align with project ESP-IDF 6.x (CLAUDE.md).
+    container: espressif/idf:release-v6.0
 
     steps:
       - name: Checkout code
