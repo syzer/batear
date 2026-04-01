@@ -54,7 +54,7 @@ When a drone signature is confirmed, an **AES-128-GCM encrypted** alert is trans
 ## 🏗️ System Architecture
 
 ```
-┌──────────────────────┐        LoRa 915 MHz         ┌──────────────────────┐
+┌──────────────────────┐        LoRa 915 MHz          ┌──────────────────────┐
 │    DETECTOR (×N)     │ ───────────────────────────► │     GATEWAY (×1)     │
 │                      │  AES-128-GCM encrypted       │                      │
 │  ICS-43434 mic       │  28-byte packets             │  SSD1306 OLED display│
